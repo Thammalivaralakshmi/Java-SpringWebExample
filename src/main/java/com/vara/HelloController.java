@@ -9,8 +9,8 @@ public class HelloController {
 	
 	@RequestMapping("/hello")
 	public ModelAndView sayHello() {
-		ModelAndView mv = new ModelAndView("/WEB-INF/views/view.jsp");
-		return mv;
+    	return new ModelAndView("view"); // resolves to /WEB-INF/views/view.jsp
 	}
+
 
 }
