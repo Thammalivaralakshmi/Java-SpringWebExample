@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'   // use the Maven configured in Jenkins
+        maven 'maven3'   // use the Maven configured in Jenkins
     }
 
     stages {
