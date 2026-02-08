@@ -27,7 +27,7 @@ pipeline {
                 WAR_NAME=SpringWebExample-0.0.1-SNAPSHOT.war
 
                 echo "Stopping old deployment if exists"
-                rm -rf $TOMCAT_HOME/webapps/SpringWebExample-0.0.1-SNAPSHOT*
+                sudo rm -rf $TOMCAT_HOME/webapps/SpringWebExample-0.0.1-SNAPSHOT*
 
                 echo "Copying WAR to Tomcat"
                 cp target/$WAR_NAME $TOMCAT_HOME/webapps/
