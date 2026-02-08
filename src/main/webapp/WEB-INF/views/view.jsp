@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hello from view.jsp
+Hello from view.jsp<br/><br/>
+Added one more line...
 </body>
 </html>
